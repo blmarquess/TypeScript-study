@@ -1,0 +1,11 @@
+"use strict";
+const testo = 'Aqui tem um testo';
+const num = 98;
+const arr = [1, 2, 3, 4, 5];
+console.log(testo);
+const newArray = [...new Array(10).keys()];
+console.log(newArray);
+const meSentiment = 'I am very happy && mas paresse a mesma coisa, mas não é o mesmo!';
+console.log(meSentiment);
+const vamosParaAsClasses = 'Vamos para as classes';
+console.log(vamosParaAsClasses);
