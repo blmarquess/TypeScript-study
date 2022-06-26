@@ -82,12 +82,12 @@ Para tiper um array definimos o nome dela depois colocamos o tipo e em sequênci
 Para tipar uma array que só terá número fazemos da seguinte forma
 
 ```Typescript
-const arrayDeNumeros:number = [42, 7, 6, 3, 9]
+const arrayDeNumeros:number[] = [42, 7, 6, 3, 9]
 ```
 Para tipar uma array que só terá strings fazemos da seguinte forma
 
 ```Typescript
-const arrayDeStrings:string = ['sem', 'valores', 'a', 'pagar']
+const arrayDeStrings:string[] = ['sem', 'valores', 'a', 'pagar']
 ```
 
 Para tipar uma array que terá números e strings ou qualquer coisa fazemos da seguinte forma
