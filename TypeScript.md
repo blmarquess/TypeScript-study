@@ -4,11 +4,11 @@ TypeScript é JavaScript com sintaxe para tipos.
 >Informações da [documentação](https://www.typescriptlang.org/pt/)
 
 
-TypeScript é uma linguagem de programação fortemente tipada que se baseia no JavaScript, dando-lhe melhor ferramentagem em qualquer escala.
+TypeScript é uma linguagem de programação fortemente tipada que se baseia no JavaScript, dando-lhe melhor ferramentas em qualquer escala.
 
 ## Mais So adiciona tipos ao JavaScript ?
 
-Alem de seistema de tipos estaticos para a linguagem foram introduzidas farias funcionalidades que ajudam nós desenvolvedores no momento de desenvolivimento e nos posibilita um melhor ao suporte ao paradigmas de programação Orientado a Objetos (POO), com a inclusão a escopo de visibilidade de propriedades e metodos para as classes, inclusão do suporte a interfaces
+Além de sistema de tipos estáticos para a linguagem foram introduzidas farias funcionalidades que ajudam nós desenvolvedores no momento de desenvolvimento e nos possibilita um melhor ao suporte ao paradigmas de programação Orientado a Objetos (POO), com a inclusão a escopo de visibilidade de propriedades e métodos para as classes, inclusão do suporte a interfaces
 
 
 ## Isso aumenta a verbosidade da linguagem e a produtividade ?
@@ -55,7 +55,7 @@ Partindo do pressuposto que você já domina o JavaScript não irei explicar os 
 ```Typescript
 const variavelString:string = 'valor da variavel string aqui'
 const variavelNumero:number = 42
-const variavelBollean:boolean = true
+const variavelBoolean:boolean = true
 const variavelObject:object{ id:number, name:string } = { id: 42, name: 'produto' }
 ```
 
@@ -77,21 +77,29 @@ const variavelFatura:number | string = 'sem valores a pagar'
 ```
 Sabendo da existência do any e Union agora iremos tipar nossas arrays. 
 
-Para tiper um array definimos o nome dela depois colocamos o tipo e em sequência abrimos e fechamos os brackets(colchetes)
+Para tipar um array definimos o nome dela depois colocamos o tipo e em sequência abrimos e fechamos os brackets(colchetes)
 
-Para tipar uma array que só terá número fazemos da seguinte forma
+Para tipar uma array que só terá número declaramos da seguinte forma
 
 ```Typescript
 const arrayDeNumeros:number[] = [42, 7, 6, 3, 9]
 ```
-Para tipar uma array que só terá strings fazemos da seguinte forma
+Para tipar uma array que só terá strings declaramos da seguinte forma
 
 ```Typescript
 const arrayDeStrings:string[] = ['sem', 'valores', 'a', 'pagar']
 ```
 
-Para tipar uma array que terá números e strings ou qualquer coisa fazemos da seguinte forma
+Para tipar uma array que terá números e strings ou qualquer coisa declaramos da seguinte forma
 
 ```Typescript
 const arrayDeNumerosOuStrings:any[] = ['valores', 69, {id: 3}, 'carros']
 ```
+
+Para tipar uma array que terá strings e números declaramos da seguinte forma
+
+```Typescript
+const arrayDeStringsNumeros:(string | number)[] = ['sem', 6, 'valores', 69, 'pagar', 63, 39]
+```
+
+Aqui vemos mais uma forma de declarar um tipo para uma variavel do tipo array/vetor utilizando os tipos envolvidos entre parenteses ``` '( )' ``` e separados por pipe ``` '|' ``` ex: ```const nomeDaVariavel:( number | string | { id: number})[] = [396, 'gold', {id:1}]```
