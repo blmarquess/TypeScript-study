@@ -1,0 +1,20 @@
+{
+  "name": "typescript-study",
+  "version": "1.0.0",
+  "description": "Folder to save scripts with used in study of TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blmarquess/TypeScript-study.git"
+  },
+  "keywords": ["typescript-study", "typescript"],
+  "author": "Bruno Marques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blmarquess/TypeScript-study/issues"
+  },
+  "homepage": "https://github.com/blmarquess/TypeScript-study#readme"
+}
