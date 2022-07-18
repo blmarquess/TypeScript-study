@@ -1,3 +1,4 @@
+
 # O que é TypeScript?
 
 TypeScript é JavaScript com sintaxe para tipos.
@@ -103,3 +104,4 @@ const arrayDeStringsNumeros:(string | number)[] = ['sem', 6, 'valores', 69, 'pag
 ```
 
 Aqui vemos mais uma forma de declarar um tipo para uma variavel do tipo array/vetor utilizando os tipos envolvidos entre parenteses ``` '( )' ``` e separados por pipe ``` '|' ``` ex: ```const nomeDaVariavel:( number | string | { id: number})[] = [396, 'gold', {id:1}]```
+
