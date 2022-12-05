@@ -1,0 +1,9 @@
+{
+  "name": "Decorators",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.8.1"
+  }
+}
