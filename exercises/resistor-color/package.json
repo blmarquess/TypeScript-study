@@ -1,0 +1,17 @@
+{
+  "name": "resistor-color",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/jest": "^29.2.3",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
