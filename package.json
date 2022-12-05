@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/blmarquess/TypeScript-study.git"
   },
-  "keywords": ["typescript-study", "typescript"],
+  "keywords": [
+    "typescript-study",
+    "typescript"
+  ],
   "author": "Bruno Marques",
   "license": "MIT",
   "bugs": {
