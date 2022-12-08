@@ -1,0 +1,22 @@
+{
+  "name": "is-leap-year",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "is-leap-year",
+  "author": "Bruno Marques",
+  "main": "leap.ts",
+  "type": "module",
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/node": "^16.11.24",
+    "jest": "^27.5.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "test": "jest --no-cache"
+  }
+}

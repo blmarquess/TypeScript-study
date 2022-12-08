@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNEXT", "dom"],
+    "module": "ES2020",
+    "target": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true
+  },
+  "include": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+  "exclude": ["node_modules"]
+}
